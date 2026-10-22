@@ -1580,7 +1580,7 @@ export default function App() {
                 src={HERO_CREATIONS[0].heroImage}
                 customKey="hero-banner-model"
                 customImages={customImages}
-                alt="Model"
+                alt="Indian woman in handloom craftwear"
                 className="w-full h-full object-cover object-top"
               />
             </div>

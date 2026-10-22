@@ -3,9 +3,6 @@ import heroBhimbetkaMotifsImg from '../assets/images/hero_bhimbetka_motifs_17903
 import heroWoodenBlocksImg from '../assets/images/hero_wooden_blocks_1790397165507.jpg';
 import productClothesHoodieImg from '../assets/images/product_clothes_hoodie_1790397183670.jpg';
 import bannerFashionModelImg from '../assets/images/banner_fashion_model_1790397199817.jpg';
-import heroChairModel1Img from '../assets/images/hero_chair_model_1_1790397657294.jpg';
-import heroChairModel2Img from '../assets/images/hero_chair_model_2_1790397670079.jpg';
-import heroChairModel3Img from '../assets/images/hero_chair_model_3_1790397684221.jpg';
 import heroCraftBgImg from '../assets/images/hero_craft_bg_1790398896866.jpg';
 
 export interface FloatingCallout {
@@ -116,7 +113,7 @@ export const HERO_CREATIONS: HeroCreation[] = [
     title: 'Revive Dupatta — Heirloom Drapes Reborn in Natural Dye',
     shortTitle: 'Revive Dupatta',
     subtitle: 'Giving second life to heritage Chanderi and Mulmul dupattas through Harda tannin baths, zari darning, and layered hand-block over-printing.',
-    heroImage: heroChairModel1Img,
+    heroImage: bannerFashionModelImg,
     blogHeroImage: heroReviveDupattaImg,
     readTime: '5 min read',
     cluster: 'Bagh & Chanderi Weavers, MP',
@@ -194,7 +191,7 @@ export const HERO_CREATIONS: HeroCreation[] = [
     title: 'Bhimbetka Motifs — 10,000-Year Cave Art on Modern Cloth',
     shortTitle: 'Bhimbetka Motifs',
     subtitle: 'Translating Mesolithic rock paintings of communal dancers, spirited wild horses, and geometric symbols into contemporary wearable cloth patterns.',
-    heroImage: heroChairModel2Img,
+    heroImage: bannerFashionModelImg,
     blogHeroImage: heroBhimbetkaMotifsImg,
     readTime: '6 min read',
     cluster: 'Bhopal & Raisen Craft Guild, MP',
@@ -272,7 +269,7 @@ export const HERO_CREATIONS: HeroCreation[] = [
     title: 'Wooden Blocks — Hand-Carved Sagwan Teak Printing Matrices',
     shortTitle: 'Wooden Blocks',
     subtitle: 'Precision-chiseled seasoned teakwood blocks (Thappa) engineered with 6mm relief walls and air-release vents for crisp hand stamping on textiles.',
-    heroImage: heroChairModel3Img,
+    heroImage: bannerFashionModelImg,
     blogHeroImage: heroWoodenBlocksImg,
     readTime: '4 min read',
     cluster: 'Pethapur & Bagh Carvers Guild',
@@ -615,7 +612,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     isNewArrival: true,
     image: heroReviveDupattaImg,
-    gallery: [heroReviveDupattaImg, heroChairModel1Img, heroBhimbetkaMotifsImg, heroCraftBgImg],
+    gallery: [heroReviveDupattaImg, bannerFashionModelImg, heroBhimbetkaMotifsImg, heroCraftBgImg],
     material: 'Handwoven Chanderi Silk & Organic Cotton (100s count)',
     dye: 'Natural Madder Root Red, Myrobalan Harda & Indigo',
     origin: 'Restored in Bagh & Chanderi, MP',
@@ -688,7 +685,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     isNewArrival: true,
     image: heroBhimbetkaMotifsImg,
-    gallery: [heroBhimbetkaMotifsImg, heroChairModel2Img, heroWoodenBlocksImg, heroCraftBgImg],
+    gallery: [heroBhimbetkaMotifsImg, bannerFashionModelImg, heroWoodenBlocksImg, heroCraftBgImg],
     material: '100% Unbleached Organic Mulmul Cotton',
     dye: 'Red Hematite Geru & Fermented Iron Kasim Black',
     origin: 'Hand-printed in Bhopal Pattern Studio',
@@ -749,7 +746,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     isNewArrival: true,
     image: heroWoodenBlocksImg,
-    gallery: [heroWoodenBlocksImg, heroChairModel3Img, heroCraftBgImg, heroReviveDupattaImg],
+    gallery: [heroWoodenBlocksImg, bannerFashionModelImg, heroCraftBgImg, heroReviveDupattaImg],
     material: '5-Year Seasoned Sagwan Teakwood (Tectona grandis)',
     dye: 'Cured in Cold-Pressed Mustard Oil with Muslin Proof Swatch',
     origin: 'Chiseled by Pethapur Master Carvers',
@@ -810,7 +807,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     isNewArrival: true,
     image: productClothesHoodieImg,
-    gallery: [productClothesHoodieImg, bannerFashionModelImg, heroCraftBgImg, heroChairModel2Img],
+    gallery: [productClothesHoodieImg, bannerFashionModelImg, heroCraftBgImg, heroReviveDupattaImg],
     material: 'Heavyweight 420 GSM Organic French Terry Cotton',
     dye: 'Harda Ecru with Iron-Carbon Block Stamped Sleeves & Hood',
     origin: 'Crafted & Tailored in Jaipur Studio',
@@ -872,7 +869,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: false,
     isNewArrival: true,
     image: bannerFashionModelImg,
-    gallery: [bannerFashionModelImg, productClothesHoodieImg, heroChairModel1Img, heroCraftBgImg],
+    gallery: [bannerFashionModelImg, productClothesHoodieImg, heroReviveDupattaImg, heroCraftBgImg],
     material: 'Handspun Khadi Denim with Indigo Yarn Warp',
     dye: 'Natural Indigo Vat & Terracotta Block Print Accents',
     origin: 'Ambar Charkha Guild, MP',
@@ -974,7 +971,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     isNewArrival: false,
     image: heroReviveDupattaImg,
-    gallery: [heroReviveDupattaImg, heroChairModel3Img, heroBhimbetkaMotifsImg, heroCraftBgImg],
+    gallery: [heroReviveDupattaImg, bannerFashionModelImg, heroBhimbetkaMotifsImg, heroCraftBgImg],
     material: 'Handspun Wild Ghicha Tussar Silk with Gold Zari',
     dye: 'Tesu (Flame of the Forest) Marigold Yellow & Iron Black',
     origin: 'Restored Heirloom Piece',
@@ -1025,7 +1022,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: false,
     isNewArrival: false,
     image: heroWoodenBlocksImg,
-    gallery: [heroWoodenBlocksImg, productClothesHoodieImg, heroCraftBgImg, heroChairModel1Img],
+    gallery: [heroWoodenBlocksImg, productClothesHoodieImg, heroCraftBgImg, bannerFashionModelImg],
     material: 'Sagwan Block + 2 Mordanted Cotton Bandanas + Natural Dyes',
     dye: 'Pre-measured Harda, Alizarin & Iron Powders Included',
     origin: 'Artisan DIY Craft Studio',
