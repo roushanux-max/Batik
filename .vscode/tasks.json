@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start local app",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install npm dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install dependencies (legacy peer resolution)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"--legacy-peer-deps"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install missing PWA plugin",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"--no-save",
+				"--legacy-peer-deps",
+				"vite-plugin-pwa"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

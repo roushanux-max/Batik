@@ -101,6 +101,259 @@
       "createdAt": "2026-09-24T05:19:26.579Z"
     }
   ],
-  "workGroups": [],
+  "workGroups": [
+    {
+      "id": "wg-1",
+      "groupNumber": "01",
+      "title": "Motif Research & Tracing",
+      "categoryName": "Bhimbetka Motifs",
+      "image": "/src/assets/images/hero_bhimbetka_motifs_1790397150064.jpg",
+      "summary": "Documenting cave paintings and calibrating stroke widths for wood chisel reproduction.",
+      "smallTasks": [
+        {
+          "id": "t-1",
+          "code": "1.1",
+          "title": "Extract figures from Cave Shelter III-F",
+          "detail": "Isolate dancing figures and equine motifs from archival photography.",
+          "duration": "4 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-2",
+          "code": "1.2",
+          "title": "Calibrate minimum 1.2mm stroke weight",
+          "detail": "Ensure lines are structurally carvable in teakwood without snapping.",
+          "duration": "2.5 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-3",
+          "code": "1.3",
+          "title": "Establish half-drop seamless repeat grid",
+          "detail": "Test seamless boundary math across 44-inch textile roll width.",
+          "duration": "3 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-4",
+          "code": "1.4",
+          "title": "Prepare pin-pricked master butter paper",
+          "detail": "Perforate tracing line work for chalk dust transfer onto wood.",
+          "duration": "1.5 hrs",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "wg-2",
+      "groupNumber": "02",
+      "title": "Teak Wood Block Carving",
+      "categoryName": "Wooden Blocks",
+      "image": "/src/assets/images/hero_wooden_blocks_1790397165507.jpg",
+      "summary": "Hand-chiseling seasoned Sagwan wood into registered Rekh (outline) and Datta (fill) blocks.",
+      "smallTasks": [
+        {
+          "id": "t-5",
+          "code": "2.1",
+          "title": "Surface plane Sagwan timber block",
+          "detail": "Level wood to 0.1mm flatness and brush safeda chalk ground.",
+          "duration": "2 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-6",
+          "code": "2.2",
+          "title": "Chisel fine Rekh outline with kalam",
+          "detail": "Carve 6mm deep relief channel around outer motif edges.",
+          "duration": "12 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-7",
+          "code": "2.3",
+          "title": "Drill vertical air-release escape vents",
+          "detail": "Prevent air pockets under stamped block from smudging dye.",
+          "duration": "1 hr",
+          "completed": true
+        },
+        {
+          "id": "t-8",
+          "code": "2.4",
+          "title": "7-day mustard oil soak and proofing",
+          "detail": "Cure wood against water absorption; print first test swatch.",
+          "duration": "7 days",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "wg-3",
+      "groupNumber": "03",
+      "title": "Natural Dye & Mordant Prep",
+      "categoryName": "Bhimbetka Motifs",
+      "image": "/src/assets/images/banner_fashion_model_1790397199817.jpg",
+      "summary": "Brewing fermented iron-jaggery black, alum fixatives, and botanical madder red pastes.",
+      "smallTasks": [
+        {
+          "id": "t-9",
+          "code": "3.1",
+          "title": "Reetha soapnut scouring wash",
+          "detail": "Boil unbleached mulmul & khadi yardage to strip loom oils.",
+          "duration": "5 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-10",
+          "code": "3.2",
+          "title": "Harda (Myrobalan) tannin bath",
+          "detail": "Mordant clean cotton yardage to accept natural dye pigments.",
+          "duration": "4 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-11",
+          "code": "3.3",
+          "title": "Kasim iron-jaggery 14-day fermentation",
+          "detail": "Ferment scrap iron and raw jaggery in earthen pots for deep black.",
+          "duration": "14 days",
+          "completed": true
+        },
+        {
+          "id": "t-12",
+          "code": "3.4",
+          "title": "Tamarind seed gum thickening",
+          "detail": "Simmer roasted tamarind seeds into printing paste viscosity.",
+          "duration": "3 hrs",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "wg-4",
+      "groupNumber": "04",
+      "title": "Dupatta Restoration & Mordanting",
+      "categoryName": "Revive Dupatta",
+      "image": "/src/assets/images/hero_revive_dupatta_1790397131397.jpg",
+      "summary": "Inspecting vintage heirlooms, repairing damaged selvedges, and preparing for over-dyeing.",
+      "smallTasks": [
+        {
+          "id": "t-13",
+          "code": "4.1",
+          "title": "Backlit lightbox defect mapping",
+          "detail": "Chart discoloration spots and worn zari threads across vintage drape.",
+          "duration": "2 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-14",
+          "code": "4.2",
+          "title": "Fine zari needle darning and reinforcement",
+          "detail": "Hand-darn frayed selvedges with matching antique gold thread.",
+          "duration": "6 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-15",
+          "code": "4.3",
+          "title": "Targeted Harda immersion for tone warmth",
+          "detail": "Give aged white silk a consistent warm ivory parchment ground.",
+          "duration": "3 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-16",
+          "code": "4.4",
+          "title": "Layout planning for motif overprint",
+          "detail": "Align block placement so dance motifs integrate over faint marks.",
+          "duration": "2 hrs",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "wg-5",
+      "groupNumber": "05",
+      "title": "Hand-Block Stamping on Fabric",
+      "categoryName": "Clothes & Patterns",
+      "image": "/src/assets/images/product_clothes_hoodie_1790397183670.jpg",
+      "summary": "Stamping Rekh and Datta blocks in perfect register across tensioned fabric tables.",
+      "smallTasks": [
+        {
+          "id": "t-17",
+          "code": "5.1",
+          "title": "Pin fabric across 24-layer jute table",
+          "detail": "Tension cloth without stretching to ensure repeatable stamping.",
+          "duration": "1 hr",
+          "completed": true
+        },
+        {
+          "id": "t-18",
+          "code": "5.2",
+          "title": "Charge wooden tari tray felt pad",
+          "detail": "Evenly distribute natural dye paste on bamboo grid felt.",
+          "duration": "30 mins",
+          "completed": true
+        },
+        {
+          "id": "t-19",
+          "code": "5.3",
+          "title": "Stamp outer border with pin registration",
+          "detail": "Align guide pins on block corners for continuous narrative frieze.",
+          "duration": "4.5 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-20",
+          "code": "5.4",
+          "title": "Overlay secondary Datta color block",
+          "detail": "Stamp terracotta and ochre fills inside black outline motifs.",
+          "duration": "3 hrs",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "wg-6",
+      "groupNumber": "06",
+      "title": "Sun Curing & Final Finishing",
+      "categoryName": "Clothes & Patterns",
+      "image": "/src/assets/images/hero_revive_dupatta_1790397131397.jpg",
+      "summary": "Boiling in copper dye vats with Dhawda flowers, river washing, and steam tailoring.",
+      "smallTasks": [
+        {
+          "id": "t-21",
+          "code": "6.1",
+          "title": "72-Hour solar oxidation cure",
+          "detail": "Rest printed yardage in open sunshine to let mordant bond to fiber.",
+          "duration": "3 days",
+          "completed": true
+        },
+        {
+          "id": "t-22",
+          "code": "6.2",
+          "title": "Copper vat boiling with alizarin root",
+          "detail": "Boil cloth in copper cauldron to develop vibrant brick-red color.",
+          "duration": "4 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-23",
+          "code": "6.3",
+          "title": "Flowing water river wash & air dry",
+          "detail": "Rinse out gum paste until rinse water runs crystal clear.",
+          "duration": "5 hrs",
+          "completed": true
+        },
+        {
+          "id": "t-24",
+          "code": "6.4",
+          "title": "Quality inspection & craft certificate",
+          "detail": "Sign artisan maker tag and stitch signature orange corner loop.",
+          "duration": "1 hr",
+          "completed": true
+        }
+      ]
+    }
+  ],
   "customImages": {}
 }
