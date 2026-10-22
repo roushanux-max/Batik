@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "user_default_sujit",
+      "name": "Sujit Jha",
+      "email": "sujitjha.ids@indusuni.ac.in",
+      "passwordHash": "b6064a21fa187b6bc21e3565f029b57526cd49686f4f65cf6bf02e45d7ee1e843315278e8069d013a9c35844c8336d8b5cd920dd76dafe74d3ff125b9854eaba",
+      "salt": "seededsalt123456",
+      "createdAt": "2026-09-26T05:19:26.578Z",
+      "cart": [],
+      "wishlist": [
+        "prod-1",
+        "prod-4"
+      ]
+    },
+    {
+      "id": "usr_1790399975596_f7ox8",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "passwordHash": "c46b18ff3c090aa8e6e532af04116f86fda567f5b64cb873fc9dd2838f486a7055065eef54c14020a5849269c40089917d0a38d59bd070db638c4d3ab793b175",
+      "salt": "3a1716f94a0f68a820fd07a33e9b95de",
+      "createdAt": "2026-09-26T05:19:35.596Z",
+      "cart": [],
+      "wishlist": []
+    }
+  ],
+  "sessions": {
+    "9d08e135f71996f0e1a9dd8cb99de2f645c88228aa817490466bff0e43043762": "user_default_sujit",
+    "f2cd259b2829f5226abbcd83b2239f832cd8b5853cf3f62265db370e1e473451": "usr_1790399975596_f7ox8"
+  },
+  "orders": [
+    {
+      "id": "ord_sample_1",
+      "orderNumber": "ORD-2026-84920",
+      "userId": "user_default_sujit",
+      "customerName": "Sujit Jha",
+      "customerEmail": "sujitjha.ids@indusuni.ac.in",
+      "items": [
+        {
+          "product": {
+            "id": "prod-4",
+            "name": "Revive Dupatta Volume IV",
+            "price": 3499,
+            "category": "Clothes & Patterns",
+            "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=800"
+          },
+          "quantity": 1,
+          "size": "Free Size"
+        }
+      ],
+      "subtotal": 3499,
+      "shipping": 0,
+      "discount": 500,
+      "total": 2999,
+      "paymentMethod": "UPI / NetBanking",
+      "shippingAddress": {
+        "name": "Sujit Jha",
+        "address": "Indus University Campus",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": "382115"
+      },
+      "status": "In Transit",
+      "createdAt": "2026-09-24T05:19:26.579Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub_1",
+      "email": "sujitjha.ids@indusuni.ac.in",
+      "preferences": [
+        "drops",
+        "sales"
+      ],
+      "frequency": "drops",
+      "promoCode": "RUPAL500",
+      "subscribedAt": "2026-09-25T05:19:26.579Z"
+    },
+    {
+      "id": "sub_1790399982516",
+      "email": "collector@indusuni.ac.in",
+      "preferences": [
+        "drops",
+        "sales"
+      ],
+      "frequency": "drops",
+      "promoCode": "RUPAL500",
+      "subscribedAt": "2026-09-26T05:19:42.516Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "productId": "prod-1",
+      "author": "Ananya Verma",
+      "city": "Jaipur, RJ",
+      "rating": 5,
+      "title": "Authentic Alizarin Dyes and Flawless Edge Print",
+      "content": "The vegetable dye aroma is completely pure and natural. The weight of the hand-spun mulmul is breathtakingly soft. Truly museum grade craftsmanship!",
+      "date": "2 days ago",
+      "createdAt": "2026-09-24T05:19:26.579Z"
+    }
+  ],
+  "workGroups": [],
+  "customImages": {}
+}

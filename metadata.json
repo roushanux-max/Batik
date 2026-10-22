@@ -1,0 +1,6 @@
+{
+  "name": "Rupal — Clothes, Patterns & Hand-Block E-Commerce PWA",
+  "description": "Artisanal e-commerce PWA by Rupal Joshi featuring Revive Dupatta, Bhimbetka rock art motifs, wooden blocks, and craft task workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
